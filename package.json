@@ -1,0 +1,30 @@
+{
+	"name": "http-servers",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node dist/index.js",
+		"dev": "npx tsc && node dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Banquished/http-servers.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Banquished/http-servers/issues"
+	},
+	"homepage": "https://github.com/Banquished/http-servers#readme",
+	"description": "",
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/node": "^26.6.5"
+	},
+	"dependencies": {
+		"express": "^5.3.0"
+	}
+}
